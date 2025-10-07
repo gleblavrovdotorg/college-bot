@@ -1,5 +1,6 @@
 package com.collegebot;
-
+import java.util.Arrays;
+import java.util.List;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -26,7 +27,10 @@ public class CollegeBot extends TelegramLongPollingBot {
     private final AtomicInteger messageCounter = new AtomicInteger(1);
     
     private static final String CHANNEL_ID = "@KRD_TEC_LUV";
-    private static final Long ADMIN_ID = 7709348924L;
+    private static final List<Long> ADMIN_ID = Arrays.asList(
+    7709348924L, // твой ID
+    8097728191L // второй админ
+    );
     
     String channelID = "@KRD\\_TEC\\_LUV";
 
