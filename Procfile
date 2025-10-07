@@ -1,0 +1,1 @@
+web: java -jar target/college-bot-1.0-SNAPSHOT.jar
