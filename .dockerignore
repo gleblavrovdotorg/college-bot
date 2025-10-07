@@ -1,0 +1,7 @@
+# Игнорируем ненужные файлы
+.git
+.gitignore
+README.md
+*.iml
+.idea/
+target/
